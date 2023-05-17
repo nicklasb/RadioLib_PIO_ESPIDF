@@ -1,7 +1,7 @@
 #include "test_component.hpp"
 
 #include "TestHAL.hpp"
-#include "RadioLib.h"
+#include <RadioLib.h>
 
 void test (){
     TestHAL *hal = new TestHAL();
