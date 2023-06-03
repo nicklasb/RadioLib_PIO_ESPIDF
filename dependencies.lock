@@ -1,9 +1,16 @@
 dependencies:
+  RadioLib:
+    component_hash: 597fd5fda31ea054ac6db7b7c8491d26a8ee5a30ecda853e9882b5452e70e7b4
+    source:
+      git: https://github.com/nicklasb/RadioLib.git
+      path: .
+      type: git
+    version: 7cde26c60de476f5a7546ba77705e9001b59c999
   idf:
     component_hash: null
     source:
       type: idf
     version: 5.0.1
-manifest_hash: d8517b2d74b64ed55381d24956c92544c549538ff2630052f70d5215a6916b52
+manifest_hash: cbeebbb869c919363aea043732bd4b8f284a33067dea34edcfca8381006a449b
 target: esp32
 version: 1.0.0

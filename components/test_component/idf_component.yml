@@ -1,3 +1,5 @@
 dependencies:
   # Required IDF version
   idf: ">=4.1"
+  RadioLib:
+    git: https://github.com/nicklasb/RadioLib.git

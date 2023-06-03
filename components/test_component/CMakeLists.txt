@@ -5,5 +5,5 @@ FILE(GLOB comp_sources
 idf_component_register(
     SRCS ${comp_sources} 
     INCLUDE_DIRS . include 
-    #REQUIRES radiolib
+    REQUIRES RadioLib
 )
